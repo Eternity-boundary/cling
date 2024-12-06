@@ -1,0 +1,45 @@
+name: Build Cling on Windows
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up CMake
+        uses: actions/setup-cmake@v1
+        with:
+          cmake-version: '3.20.0'
+
+      - name: Install dependencies
+        run: |
+          choco install -y ninja visualstudio2019buildtools visualstudio2019-workload-vctools
+
+      - name: Clone LLVM project and Cling
+        run: |
+          git clone -b cling-llvm16 https://github.com/root-project/llvm-project.git src
+          git clone https://github.com/root-project/cling.git
+
+      - name: Configure with CMake
+        run: |
+          mkdir build
+          cd build
+          cmake -G Ninja ^
+            -DCMAKE_BUILD_TYPE=Release ^
+            -DLLVM_BUILD_TOOLS=Off ^
+            -DLLVM_EXTERNAL_PROJECTS=cling ^
+            -DLLVM_EXTERNAL_CLING_SOURCE_DIR=../cling ^
+            -DLLVM_ENABLE_PROJECTS=clang ^
+            -DLLVM_TARGETS_TO_BUILD="host;NVPTX" ^
+            -DCMAKE_INSTALL_PREFIX=../install ^
+            ../src/llvm
+
+      - name: Build with CMake
+        run: |
+          cd build
+          cmake --build .
+          cmake --build . --target install
