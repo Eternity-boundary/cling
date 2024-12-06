@@ -30,8 +30,9 @@ jobs:
 
       - name: Configure with CMake
         run: |
-        git clone -b cling-llvm16 https://github.com/root-project/llvm-project.git src
-        git clone https://github.com/root-project/cling.git
+          git clone -b cling-llvm16 https://github.com/root-project/llvm-project.git src
+
+          git clone https://github.com/root-project/cling.git
           mkdir build
           cd build
           cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DLLVM_BUILD_TOOLS=Off -DLLVM_EXTERNAL_PROJECTS=cling -DLLVM_EXTERNAL_CLING_SOURCE_DIR=../cling -DLLVM_ENABLE_PROJECTS=clang -DLLVM_TARGETS_TO_BUILD="host;NVPTX" ../src
