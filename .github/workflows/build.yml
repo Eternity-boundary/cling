@@ -1,0 +1,46 @@
+name: Build Cling on Windows
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Install dependencies
+        run: |
+          choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System' --yes
+          choco install ninja --yes
+
+      - name: Configure with CMake
+        run: |
+          mkdir build
+          cd build
+          cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DLLVM_BUILD_TOOLS=Off -DLLVM_EXTERNAL_PROJECTS=cling -DLLVM_EXTERNAL_CLING_SOURCE_DIR=../cling -DLLVM_ENABLE_PROJECTS=clang -DLLVM_TARGETS_TO_BUILD="host;NVPTX" ../src
+
+      - name: Build Cling
+        run: |
+          cd build
+          cmake --build .
+
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: cling-build
+          path: build/bin/
