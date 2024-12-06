@@ -1,0 +1,857 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./AutoSynthesizer.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./AutoloadCallback.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./ASTTransformer.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./BackendPasses.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./CheckEmptyTransactionTransformer.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./CIFactory.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./ClangInternalState.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./ClingCodeCompleteConsumer.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./ClingPragmas.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./DeclCollector.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./DeclExtractor.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./DefinitionShadower.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./DeclUnloader.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./DeviceKernelInliner.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./DynamicLibraryManager.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./DynamicLibraryManagerSymbol.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./DynamicLookup.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./DynamicExprInfo.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./Exception.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./ExternalInterpreterSource.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./ForwardDeclPrinter.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./IncrementalCUDADeviceCompiler.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./IncrementalExecutor.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./IncrementalJIT.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./IncrementalParser.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./Interpreter.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./InterpreterCallbacks.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./InvocationOptions.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./LookupHelper.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./NullDerefProtectionTransformer.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./PerfJITEventListener.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./RequiredSymbols.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./Transaction.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./TransactionUnloader.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./ValueExtractionSynthesizer.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./Value.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./ValuePrinter.cpp.obj"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/./ValuePrinterSynthesizer.cpp.obj"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"llvm_add_library",
+			"add_cling_library",
+			"add_dependencies",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"E:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/Program Files (x86)/LLVM/lib/cmake/llvm/AddLLVM.cmake",
+			"CMakeLists.txt",
+			"lib/Interpreter/CMakeLists.txt",
+			"C:/Program Files (x86)/LLVM/lib/cmake/llvm/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 360,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 517,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 641,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 723,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 536,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 439,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 251,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 34,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 477,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 466,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 414,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 294,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Oi /bigobj /permissive- /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 -GR- -std:c++17 -D_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING -D_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /Zc:preprocessor /MDd /Zi /Ob0 /Od /RTC1"
+				},
+				{
+					"fragment" : " /EHsc /GR"
+				},
+				{
+					"fragment" : " /D _HAS_EXCEPTIONS=1 /EHs /GR /wd4714 "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "CLING_VERSION=1.2~dev"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_SCL_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "D:/Repos/cling/out/build/x64-Debug/lib/Interpreter"
+				},
+				{
+					"path" : "D:/Repos/cling/lib/Interpreter"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/Repos/cling/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/Repos/cling/out/build/x64-Debug/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "D:/build/tools/clang/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "D:/src/clang/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Program Files (x86)/LLVM/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "intrinsics_gen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ClingDriverOptions::@7d3d30f3871be4dd1408"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Object Libraries"
+	},
+	"id" : "obj.clingInterpreter::@64a505ee762a48178382",
+	"name" : "obj.clingInterpreter",
+	"paths" : 
+	{
+		"build" : "lib/Interpreter",
+		"source" : "lib/Interpreter"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/AutoSynthesizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/AutoloadCallback.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/ASTTransformer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/BackendPasses.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/CheckEmptyTransactionTransformer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/CIFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/ClangInternalState.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/ClingCodeCompleteConsumer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/ClingPragmas.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/DeclCollector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/DeclExtractor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/DefinitionShadower.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/DeclUnloader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/DeviceKernelInliner.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/DynamicLibraryManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/DynamicLibraryManagerSymbol.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/DynamicLookup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/DynamicExprInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/Exception.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/ExternalInterpreterSource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/ForwardDeclPrinter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/IncrementalCUDADeviceCompiler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/IncrementalExecutor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/IncrementalJIT.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/IncrementalParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/Interpreter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/InterpreterCallbacks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/InvocationOptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/LookupHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/NullDerefProtectionTransformer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/PerfJITEventListener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/RequiredSymbols.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/Transaction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/TransactionUnloader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/ValueExtractionSynthesizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/Value.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/ValuePrinter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Interpreter/ValuePrinterSynthesizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/ASTTransformer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/AutoSynthesizer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/BackendPasses.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/CheckEmptyTransactionTransformer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/ClingPragmas.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/ClingUtils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/DeclCollector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/DeclExtractor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/DeclUnloader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/DefinitionShadower.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/DeviceKernelInliner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/DynamicLookup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/EnterUserCodeRAII.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/ExternalInterpreterSource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/ForwardDeclPrinter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/IncrementalExecutor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/IncrementalJIT.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/IncrementalParser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/MultiplexInterpreterCallbacks.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/NullDerefProtectionTransformer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/Threading.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/TransactionPool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/TransactionUnloader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/ValueExtractionSynthesizer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "lib/Interpreter/ValuePrinterSynthesizer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "out/build/x64-Debug/lib/Interpreter/cling-compiledata.h.in",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

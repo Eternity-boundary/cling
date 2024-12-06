@@ -1,0 +1,87 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake/modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "cling-cmake-exports",
+			"destination" : "lib/cmake/cling",
+			"exportName" : "ClingTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "clingInterpreter::@64a505ee762a48178382",
+					"index" : 7
+				},
+				{
+					"id" : "clingMetaProcessor::@5154b4144f0104edfcda",
+					"index" : 8
+				},
+				{
+					"id" : "clingUserInterface::@30e272d9e36d255fd276",
+					"index" : 9
+				},
+				{
+					"id" : "clingUtils::@ab336d7d9b25821ccbfe",
+					"index" : 10
+				},
+				{
+					"id" : "libclingJupyter::@93bd6dc94a2b2f75498c",
+					"index" : 17
+				},
+				{
+					"id" : "libcling::@c585013851f7525fbe29",
+					"index" : 16
+				}
+			],
+			"paths" : 
+			[
+				"cmake/modules/CMakeFiles/Export/6e4c6b2ae996a7fcc4d49be11a95ee7f/ClingTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "cling-cmake-exports",
+			"destination" : "lib/cmake/cling",
+			"paths" : 
+			[
+				"out/build/x64-Debug/cmake/modules/CMakeFiles/ClingConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cmake/modules",
+		"source" : "cmake/modules"
+	}
+}

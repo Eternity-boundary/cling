@@ -1,0 +1,66 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_cling_library"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"tools/Jupyter/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 381,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "libclingJupyter",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libclingJupyter.lib"
+			],
+			"targetId" : "libclingJupyter::@93bd6dc94a2b2f75498c",
+			"targetIndex" : 17,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "libclingJupyter",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/libclingJupyter.dll"
+			],
+			"targetId" : "libclingJupyter::@93bd6dc94a2b2f75498c",
+			"targetIndex" : 17,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/Jupyter",
+		"source" : "tools/Jupyter"
+	}
+}

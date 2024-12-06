@@ -1,0 +1,66 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_cling_library"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"tools/libcling/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 381,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "libcling",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libcling.lib"
+			],
+			"targetId" : "libcling::@c585013851f7525fbe29",
+			"targetIndex" : 16,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "libcling",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/libcling.dll"
+			],
+			"targetId" : "libcling::@c585013851f7525fbe29",
+			"targetIndex" : 16,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/libcling",
+		"source" : "tools/libcling"
+	}
+}

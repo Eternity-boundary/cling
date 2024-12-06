@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_cling_library"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"lib/MetaProcessor/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 381,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clingMetaProcessor",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/clingMetaProcessor.lib"
+			],
+			"targetId" : "clingMetaProcessor::@5154b4144f0104edfcda",
+			"targetIndex" : 8,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/MetaProcessor",
+		"source" : "lib/MetaProcessor"
+	}
+}

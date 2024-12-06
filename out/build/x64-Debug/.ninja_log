@@ -1,0 +1,23 @@
+# ninja log v6
+35	412	7551617770545991	include/cling/Interpreter/ClingOptions.inc	846c436a113838f6
+35	412	7551617770545991	D:/Repos/cling/out/build/x64-Debug/include/cling/Interpreter/ClingOptions.inc	846c436a113838f6
+90	877	7551617768216487	lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/MetaLexer.cpp.obj	e8ef80e5943de455
+45	1757	7551617767770402	lib/Utils/CMakeFiles/obj.clingUtils.dir/Diagnostics.cpp.obj	8cccb10a9dfc65ac
+414	880	7551617772574549	lib/Interpreter/cling-compiledata.h	7d65a20b36d4e9d8
+85	930	7551617768171277	lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/InputValidator.cpp.obj	ca04530434964c56
+65	3321	7551617767971269	lib/Utils/CMakeFiles/obj.clingUtils.dir/PlatformWin.cpp.obj	a945ec2fde78613
+77	916	7551617768085997	lib/Utils/CMakeFiles/obj.clingUtils.dir/Validation.cpp.obj	17f781bd0313d356
+414	880	7551617772574549	D:/Repos/cling/out/build/x64-Debug/lib/Interpreter/cling-compiledata.h	7d65a20b36d4e9d8
+60	924	7551617767919206	lib/Utils/CMakeFiles/obj.clingUtils.dir/PlatformPosix.cpp.obj	507596f28b28f30a
+51	2570	7551617767836149	lib/Utils/CMakeFiles/obj.clingUtils.dir/Output.cpp.obj	4be48f452552ebd2
+56	2862	7551617767886147	lib/Utils/CMakeFiles/obj.clingUtils.dir/Paths.cpp.obj	84adf463e9bc7f4d
+73	3086	7551617768050779	lib/Utils/CMakeFiles/obj.clingUtils.dir/UTF8.cpp.obj	2a258b093b9e35bf
+94	3260	7551617768264161	lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/MetaParser.cpp.obj	e79400562b1467cc
+890	4405	7551617776225267	lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/ASTTransformer.cpp.obj	6302e64e07842dbd
+900	7178	7551617776326930	lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/CheckEmptyTransactionTransformer.cpp.obj	64b7412d67a943dd
+930	7980	7551617776622739	lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/DeclCollector.cpp.obj	d5a62ec744a47fae
+98	8701	7551617768305389	lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/MetaProcessor.cpp.obj	9887cc02cf56661a
+81	8827	7551617768126119	lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/Display.cpp.obj	8f56e72083d5a059
+916	9421	7551617776483250	lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/ClingCodeCompleteConsumer.cpp.obj	d052966efeac7a24
+880	11012	7551617776124428	lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/AutoSynthesizer.cpp.obj	c316dd907b0aa9b0
+885	12150	7551617776174418	lib/Interpreter/CMakeFiles/obj.clingInterpreter.dir/AutoloadCallback.cpp.obj	cf895bc0c8562ea5

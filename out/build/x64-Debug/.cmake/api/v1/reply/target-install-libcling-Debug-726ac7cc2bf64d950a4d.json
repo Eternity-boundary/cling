@@ -1,0 +1,80 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_cling_library"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"tools/libcling/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 389,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "libcling::@c585013851f7525fbe29"
+		}
+	],
+	"id" : "install-libcling::@c585013851f7525fbe29",
+	"name" : "install-libcling",
+	"paths" : 
+	{
+		"build" : "tools/libcling",
+		"source" : "tools/libcling"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/tools/libcling/CMakeFiles/install-libcling",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/tools/libcling/CMakeFiles/install-libcling.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

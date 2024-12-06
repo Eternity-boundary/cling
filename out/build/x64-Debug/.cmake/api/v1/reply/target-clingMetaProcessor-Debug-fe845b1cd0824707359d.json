@@ -1,0 +1,246 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/clingMetaProcessor.lib"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"llvm_add_library",
+			"add_cling_library",
+			"install",
+			"add_dependencies",
+			"target_link_libraries",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"E:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/Program Files (x86)/LLVM/lib/cmake/llvm/AddLLVM.cmake",
+			"CMakeLists.txt",
+			"lib/MetaProcessor/CMakeLists.txt",
+			"C:/Program Files (x86)/LLVM/lib/cmake/llvm/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 360,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 588,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 641,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 719,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 712,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 439,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 251,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 34,
+				"parent" : 8
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 477,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 466,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 414,
+				"parent" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 294,
+				"parent" : 8
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "intrinsics_gen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "obj.clingMetaProcessor::@5154b4144f0104edfcda"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "clingInterpreter::@64a505ee762a48178382"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "clingUtils::@ab336d7d9b25821ccbfe"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Cling libraries"
+	},
+	"id" : "clingMetaProcessor::@5154b4144f0104edfcda",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/Repos/cling/out/install/x64-Debug"
+		}
+	},
+	"name" : "clingMetaProcessor",
+	"nameOnDisk" : "clingMetaProcessor.lib",
+	"paths" : 
+	{
+		"build" : "lib/MetaProcessor",
+		"source" : "lib/MetaProcessor"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/Display.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/InputValidator.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/MetaLexer.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/MetaParser.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/MetaProcessor.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/MetaProcessor/CMakeFiles/obj.clingMetaProcessor.dir/MetaSema.cpp.obj",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,468 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						7,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a2c8c8ca036c46db9c64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						15,
+						21
+					]
+				},
+				{
+					"build" : "include/cling/Interpreter",
+					"jsonFile" : "directory-include.cling.Interpreter-Debug-345449b0e0ee903c9107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include/cling/Interpreter",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib-Debug-e9069484d90298468a11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib"
+				},
+				{
+					"build" : "lib/Interpreter",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.Interpreter-Debug-7b383d5b0d0492be755c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "lib/Interpreter",
+					"targetIndexes" : 
+					[
+						7,
+						18
+					]
+				},
+				{
+					"build" : "lib/MetaProcessor",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.MetaProcessor-Debug-18915f7e05b8e3968774.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "lib/MetaProcessor",
+					"targetIndexes" : 
+					[
+						8,
+						19
+					]
+				},
+				{
+					"build" : "lib/UserInterface",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.UserInterface-Debug-28fcbe10138f69b83d67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "lib/UserInterface",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "lib/Utils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.Utils-Debug-b7982e750670751519d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "lib/Utils",
+					"targetIndexes" : 
+					[
+						10,
+						20
+					]
+				},
+				{
+					"build" : "tools",
+					"childIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools-Debug-510b7838458e622ae347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools"
+				},
+				{
+					"build" : "tools/driver",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.driver-Debug-6ce3098647ef102929a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "tools/driver",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tools/Jupyter",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.Jupyter-Debug-6512915639527a3e8c0d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "tools/Jupyter",
+					"targetIndexes" : 
+					[
+						14,
+						17
+					]
+				},
+				{
+					"build" : "tools/libcling",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.libcling-Debug-71c731c5c61f82d8b7d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "tools/libcling",
+					"targetIndexes" : 
+					[
+						13,
+						16
+					]
+				},
+				{
+					"build" : "tools/demo",
+					"jsonFile" : "directory-tools.demo-Debug-508ca215f90ea58a37ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "tools/demo",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "tools/plugins",
+					"jsonFile" : "directory-tools.plugins-Debug-c9d50dcb2cf15d0681dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "tools/plugins"
+				},
+				{
+					"build" : "cmake/modules",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-cmake.modules-Debug-a8fbe0c1de2865e46098.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cmake/modules",
+					"targetIndexes" : 
+					[
+						5,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"name" : "Cling",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ClingDriverOptions::@7d3d30f3871be4dd1408",
+					"jsonFile" : "target-ClingDriverOptions-Debug-65b972f8ad34f44c5591.json",
+					"name" : "ClingDriverOptions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RISCVTargetParserTableGen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RISCVTargetParserTableGen-Debug-d8b5723a686e1f43eed8.json",
+					"name" : "RISCVTargetParserTableGen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acc_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acc_gen-Debug-c277741dbfe2ed463d05.json",
+					"name" : "acc_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clang-tablegen-targets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clang-tablegen-targets-Debug-5ab9ea27373ec69c526f.json",
+					"name" : "clang-tablegen-targets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cling::@776bc33a40edeb3c1ed7",
+					"jsonFile" : "target-cling-Debug-d86fdffde1a2575a7eeb.json",
+					"name" : "cling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "cling-cmake-exports::@6790388e3ded12aa3919",
+					"jsonFile" : "target-cling-cmake-exports-Debug-e724b6c2346640d3614c.json",
+					"name" : "cling-cmake-exports",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "cling-demo::@9950b7638e878091dd36",
+					"jsonFile" : "target-cling-demo-Debug-0ce08995814f15d3a256.json",
+					"name" : "cling-demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "clingInterpreter::@64a505ee762a48178382",
+					"jsonFile" : "target-clingInterpreter-Debug-ed43feefbc2cb88cf49f.json",
+					"name" : "clingInterpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "clingMetaProcessor::@5154b4144f0104edfcda",
+					"jsonFile" : "target-clingMetaProcessor-Debug-fe845b1cd0824707359d.json",
+					"name" : "clingMetaProcessor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "clingUserInterface::@30e272d9e36d255fd276",
+					"jsonFile" : "target-clingUserInterface-Debug-264a4e335d1f9b5002ba.json",
+					"name" : "clingUserInterface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "clingUtils::@ab336d7d9b25821ccbfe",
+					"jsonFile" : "target-clingUtils-Debug-0eb16d9d88f9e0232f2c.json",
+					"name" : "clingUtils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "install-cling-cmake-exports::@6790388e3ded12aa3919",
+					"jsonFile" : "target-install-cling-cmake-exports-Debug-25f5cc6cb78bbca39b91.json",
+					"name" : "install-cling-cmake-exports",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "install-cling-cmake-exports-stripped::@6790388e3ded12aa3919",
+					"jsonFile" : "target-install-cling-cmake-exports-stripped-Debug-19c0fa1f8606c0d9a22f.json",
+					"name" : "install-cling-cmake-exports-stripped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "install-libcling::@c585013851f7525fbe29",
+					"jsonFile" : "target-install-libcling-Debug-726ac7cc2bf64d950a4d.json",
+					"name" : "install-libcling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "install-libclingJupyter::@93bd6dc94a2b2f75498c",
+					"jsonFile" : "target-install-libclingJupyter-Debug-ef891a4b5a3bb583d8ab.json",
+					"name" : "install-libclingJupyter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-Debug-bfc85d692fcb71325e6b.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "libcling::@c585013851f7525fbe29",
+					"jsonFile" : "target-libcling-Debug-bdf9663fb52017ef088b.json",
+					"name" : "libcling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "libclingJupyter::@93bd6dc94a2b2f75498c",
+					"jsonFile" : "target-libclingJupyter-Debug-ea983cf521a3911a1859.json",
+					"name" : "libclingJupyter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "obj.clingInterpreter::@64a505ee762a48178382",
+					"jsonFile" : "target-obj.clingInterpreter-Debug-7e6c0b1542890cce0bd1.json",
+					"name" : "obj.clingInterpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "obj.clingMetaProcessor::@5154b4144f0104edfcda",
+					"jsonFile" : "target-obj.clingMetaProcessor-Debug-c7336a06698bfa12a14d.json",
+					"name" : "obj.clingMetaProcessor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "obj.clingUtils::@ab336d7d9b25821ccbfe",
+					"jsonFile" : "target-obj.clingUtils-Debug-0ade7472bb794b7c0ae7.json",
+					"name" : "obj.clingUtils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omp_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omp_gen-Debug-7dfeb9a1096509d7298c.json",
+					"name" : "omp_gen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Repos/cling/out/build/x64-Debug",
+		"source" : "D:/Repos/cling"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
