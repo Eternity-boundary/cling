@@ -1,38 +1,59 @@
-name: Build Cling on Windows
+name: Build and Upload Cling
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout Cling repository
         uses: actions/checkout@v2
+
+      - name: Set up CMake
+        uses: actions/setup-cmake@v1
+        with:
+          cmake-version: '3.20.0'
+
+      - name: Set up Ninja
+        uses: actions/setup-ninja@v1
 
       - name: Install dependencies
         run: |
-          choco install -y ninja visualstudio2019buildtools visualstudio2019-workload-vctools cmake
+          sudo apt-get update
+          sudo apt-get install -y clang
 
-      - name: Clone LLVM project and Cling
+      - name: Clone LLVM and Clang
         run: |
           git clone -b cling-llvm16 https://github.com/root-project/llvm-project.git src
           git clone https://github.com/root-project/cling.git
 
+      - name: Create build directory
+        run: mkdir build
+
       - name: Configure with CMake
         run: |
-          mkdir build
           cd build
-          cmake -G Ninja  -DCMAKE_BUILD_TYPE=Release  -DLLVM_BUILD_TOOLS=Off  -DLLVM_EXTERNAL_PROJECTS=cling -DLLVM_EXTERNAL_CLING_SOURCE_DIR=../cling -DLLVM_ENABLE_PROJECTS=clang -DLLVM_TARGETS_TO_BUILD="host;NVPTX" -DCMAKE_INSTALL_PREFIX=../install ../src/llvm
+          cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DLLVM_BUILD_TOOLS=Off -DLLVM_EXTERNAL_PROJECTS=cling -DLLVM_EXTERNAL_CLING_SOURCE_DIR=../cling -DLLVM_ENABLE_PROJECTS=clang -DLLVM_TARGETS_TO_BUILD="host;NVPTX" ../src/llvm
 
-      - name: Build with CMake
+      - name: Build Cling
         run: |
           cd build
           cmake --build .
+
+      - name: Install Cling
+        run: |
+          cd build
           cmake --build . --target install
 
-      - name: Upload build artifacts
+      - name: Archive build artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: build-artifacts
-          path: build/output/
+          name: cling-build
+          path: build/
